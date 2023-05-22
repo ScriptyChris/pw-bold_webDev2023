@@ -1,3 +1,37 @@
 .contact {
-  height: 30rem;
+  max-width: 111rem;
+  margin-inline: auto;
+  padding-block: 9rem;
+  display: flex;
+  justify-content: space-between;
+
+  /*
+    I wanted to use BEM alike nesting, e.g. `$__description` -> `.contact__description`, but 
+    it doesn't seem to be supported by PostCSS: https://github.com/csstools/postcss-plugins/issues/300
+  */
+  .contact__description {
+    display: flex;
+    flex-direction: column;
+    /*
+      That gap is not the same as inside CTA section's, but 
+      it is more consistent with Figma design and the sibling form.
+    */
+    gap: 4rem;
+    font-size: 1.6rem;
+    max-width: 44.4rem;
+
+    & h2 {
+      margin-block: 1.25rem;
+    }
+  }
+
+  .contact__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  .contact-form-field--full-width {
+    grid-column: span 2;
+  }
 }
