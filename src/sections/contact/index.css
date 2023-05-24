@@ -35,3 +35,25 @@
     grid-column: span 2;
   }
 }
+
+/*
+  It may be also done with mobile-first approach and then `.contact` styles will be 
+  kind of reversed from above "original" ones.
+*/
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    .contact__description {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-form-field--expandible-column {
+    grid-column: span 2;
+  }
+}

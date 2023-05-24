@@ -2,7 +2,7 @@ import './index.css'
 
 const FormInput = ({
   type, name, value, onChange, placeholder, required, 
-  disabled, widthKind, extendedClassName,
+  disabled, widthKind, extendedClassName = '',
 }) => {
 
   // Make "width" class empty by default, so consumer component can use its styling without the need to do overwriting.
