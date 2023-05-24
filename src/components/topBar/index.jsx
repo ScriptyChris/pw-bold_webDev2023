@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { FaBars } from 'react-icons/fa';
+import Link from '../link';
 import './index.css';
 
 const Topbar = () => {
@@ -36,11 +37,11 @@ const Topbar = () => {
         </div>
 
         <div className={`menu ${showMenu ? 'show' : ''}`}>
-          <a className="link" href="#">OVERVIEW</a>
-          <a className="link" href="#">FEATURES</a>
-          <a className="link" href="#">TECHNOLOGY</a>
-          <a className="link" href="#">CONTACT</a>
-          <a className="link" href="#">SIGN UP</a>
+          <Link href="#">OVERVIEW</Link>
+          <Link href="#">FEATURES</Link>
+          <Link href="#">TECHNOLOGY</Link>
+          <Link href="#">CONTACT</Link>
+          <Link href="#">SIGN UP</Link>
         </div>
 
         <div className="burger-menu" onClick={handleMenuClick}>

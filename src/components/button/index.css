@@ -10,11 +10,6 @@
 }
 
 .button--big {
-    height: 6rem;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    border-radius: 0.6rem;
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    margin-block: 1.25rem;
 }

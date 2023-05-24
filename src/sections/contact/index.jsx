@@ -37,7 +37,6 @@ const Contact = () => {
         <p>{contactModel.text}</p>
       </div>
       
-      {/* TODO: handle form submission and make inputs controllable */}
       <form className='contact__form' onSubmit={handleFormSubmit}>
         <FormInput 
           placeholder={contactModel.form.fields.firstName} 

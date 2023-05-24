@@ -32,14 +32,4 @@
     text-align: center;
     margin-bottom: 4rem;
   }
-  & .btn {
-    max-width: 16rem;
-    background-color: white;
-    border-radius: 6px;
-    text-align: center;
-    color: #ED4C5C;
-    padding: 1.7rem 5.2rem;
-    text-decoration: none;
-    font-size: 1.4rem;
-  }
 }

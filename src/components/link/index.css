@@ -1,0 +1,12 @@
+.link {
+    --primary-color: #fff;
+    --secondary-color: #D52047;
+
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.link--big {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}

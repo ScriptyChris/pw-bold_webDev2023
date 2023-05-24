@@ -26,3 +26,18 @@ h3 {
   font-size: 1.8rem;
   line-height: 2.16rem;
 }
+
+/* this should rather be placed in some shared styles file */
+.base-link-or-btn--big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16rem;
+  width: max-content;
+  height: 6rem;
+  margin-block: 1.25rem;
+  padding-inline: 3rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-radius: 0.6rem;
+}
