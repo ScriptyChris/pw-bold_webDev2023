@@ -68,7 +68,7 @@ const Contact = () => {
           value={formState.serviceOfInterest}
           onChange={handleInputChange}
         />
-        <Button>{contactModel.form.submitBtn}</Button>
+        <Button kind="big">{contactModel.form.submitBtn}</Button>
       </form>
     </section>
   );
